@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
     if (stdscr == NULL) return -1;
     curs_set(0);
     mvaddstr(10, 10, "Hello,World!!!");
-    mvaddstr(11, 10, "Curses Test!!!");
+    mvaddstr(11, 10, "PDCurses Library");
     refresh();
     getch();
     endwin();
